@@ -1,0 +1,23 @@
+o wpisaniu ls -a | grep D pojawiły sie mi wszystkie pliki zaczynające się na literę D
+- ls -a | grep D > ListaPlikówZLiterkąD.txt - utworzyło plik.txt o nazwie ListaPlikówZLiterkąD.txt
+| służy jako przekierowanie wyjścia do innego programu
+> służy jako przekierowanie wejścia do innego pliku
+1
+-Wyświetlenie procesów bash: ps aux | grep bash
+-Wyświetlenie procesów root: ps aux | grep root
+2
+-kill [PID] zakonczy proces
+-killall shell - no process found
+-kill wysyla sygnal dla dowolnego procesu
+3
+Podczas tworzenia wyniku1.txt i przerwania go Ctrl+C, okazuje ze przerywa działanie bez zapisu.
+
+-kombinacja Ctrl+D przerywa dzi1ałanie i pokazuje tekst "Witaj" przed ścieżka.
+Zapisuje też w pliku wynik2.txt.
+
+4
+-CTRL+Z - zatrzymanie programu
+-bg - uruchomienie procesu
+-fg - przeniesienie procesu na pierwszy plan
+-& - utworzenie programu w tle
+-jobs - wyswietlenie programow w tle
