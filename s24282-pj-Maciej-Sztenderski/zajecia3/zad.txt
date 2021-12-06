@@ -7,7 +7,7 @@ o wpisaniu ls -a | grep D pojawiły sie mi wszystkie pliki zaczynające się na 
 -Wyświetlenie procesów root: ps aux | grep root
 2
 -kill [PID] zakonczy proces
--killall shell - no process found
+-killall shell - niby cos dziala, ale nie widze zeby cos sie dzieje. Sprobowalem killall gedit i nie znaleziono taki proces.
 -kill wysyla sygnal dla dowolnego procesu
 3
 Podczas tworzenia wyniku1.txt i przerwania go Ctrl+C, okazuje ze przerywa działanie bez zapisu.
