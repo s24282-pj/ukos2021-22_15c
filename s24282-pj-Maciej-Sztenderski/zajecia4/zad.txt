@@ -1,0 +1,23 @@
+04 kolokwium Linux - powtórzenie
+1. ścieżka wzgleda cd ../../../kot/ma/ale
+sciezka bezwzgledna cd /tmp/ukos/kot/ma/ale
+
+2.
+
+Znajdujac w katalogu /tmp/ukos/ala/ma/kota wpisujac polecenie mkdir -p /tmp/ukos/kot/ma/ale/jan/kowalski
+3.
+mv /tmp/ukos/kot/ma/ale /tmp/ukos/ala/i
+
+4.
+polecenie ps aux by otrzymac PID
+polecenie kill [PID] albo kill -9 [PID]
+5.
+ls | grep ^al
+6.
+chmod u=rwx,g=rx,o=x ala
+chmod 751 ala
+7. ls -p > listaplikow
+8. Jest mozliwosc ze wlasciciel nie posiada pelne uprawnienia lub/i brak uprawnienia zapisu
+9. TAB bardzo przydatny
+10. wpisujemy & np. &gedit. Bedzie odrazu pracowal w tle.
+uruchamiam gedit, zatrzymuje program  kombinacja klawiszem CTRL+Z w tle. bg przywraca gedit do pracy i bedzie dalej pracowal w tle
