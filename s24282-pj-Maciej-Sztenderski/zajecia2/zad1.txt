@@ -1,0 +1,8 @@
+Zadanie umask
+-Mam wrazenie, ze polecenie umask odejmuje wartosci chmod np. umask 0222 czyli 0777 - 0222 to 0555 to znaczy ze uprawnienia dla wlasciciela, grupy, innych nie maja dostepu do odczytu.
+-Dziala dopiero po tworzeniu pliku i folderu, nie wplywa na ostatnio tworzone folder i plik. Aby przywrocic ustawienia umask, wystarczy ustawic umask 0000. Oczywiscie dalej nie wplywaja na tworzone pliki, foldery. Trzeba uzyc chmod zeby ich przywrocic prawa dostepu.
+-Przykladowy polecenie:
+-umask 0077 czyli 0777 - 0077 = 0700, pelne uprawnienia dla wlasciciela tylko.
+-umask 0022 - pelne uprawnienia dla wszystkich i wlasciciela, brak uprawnienia odczytu dla grupy i innych.
+-umask 0000 - pelne uprawnienia dla wszystkich.
+-Operator logiczny to AND (&&)
